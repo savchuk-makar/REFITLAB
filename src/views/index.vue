@@ -4,5 +4,6 @@
 </template>
 
 <script setup>
-import Services from '/pages/services.vue';
+import Services from '@/views/services.vue';
+import Home from "@/components/home.vue";
 </script>

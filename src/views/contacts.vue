@@ -34,15 +34,28 @@
                 </div>
             </div>
 
-            <div class="overflow-hidden rounded-lg lg:col-span-2 h-96 lg:h-auto">
-
+            <div class="overflow-hidden rounded-lg lg:col-span-2 h-96 lg:h-auto maps">
+              <yandex-map v-if="true"
+                  :coords="coords"
+                  :zoom="12"
+              >
+                <ymap-marker
+                    :coords="coords"
+                    marker-id="123"
+                    hint-content="test"
+                />
+              </yandex-map>
             </div>
         </div>
     </div>
 </section>
 </template>
-
-
+<script setup>
+import { yandexMap, ymapMarker } from 'vue-yandex-maps'
+const coords = [43.585525, 39.723062]
+</script>
 <style>
-/* Добавьте свои стили здесь или используйте классы Tailwind CSS */
+.ymap-container {
+  height: 100%;
+}
 </style>

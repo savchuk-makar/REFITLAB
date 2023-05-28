@@ -10,10 +10,11 @@
     "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false"
   },
   "dependencies": {
+    "@vueuse/core": "^10.1.2",
     "pinia": "^2.0.36",
     "vue": "^3.3.2",
     "vue-router": "^4.2.0",
-    "vue-yandex-maps": "^0.11.15"
+    "vue-yandex-maps": "^0.12.7"
   },
   "devDependencies": {
     "@tsconfig/node18": "^2.0.1",

@@ -4,7 +4,7 @@
       <div class="relative">
           <div class="relative shadow-xl  sm:overflow-hidden">
             <div class="absolute inset-0">
-              <img class="h-full w-full object-cover" src="../images/fon.JPG" alt="People working on laptops">
+              <img class="h-full w-full object-cover" src="@/assets/images/fon.JPG" alt="People working on laptops">
               <div class="absolute inset-0 mix-blend-multiply"></div>
             </div>
             <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">

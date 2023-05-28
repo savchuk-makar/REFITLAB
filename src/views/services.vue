@@ -15,7 +15,7 @@
     <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300 ">
       <a href="#">
         <div class="relative flex items-end overflow-hidden rounded-xl">
-            <img class="h-48 w-full object-cover" src="@/images/kioot5x49hfesr5r1j8ngke2o4e72x4f.jpeg" alt="">
+            <img class="h-48 w-full object-cover" src="@/assets/images/kioot5x49hfesr5r1j8ngke2o4e72x4f.jpeg" alt="">
         </div>
 
         <div class="mt-1 p-2">
@@ -32,7 +32,7 @@
     <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300 ">
       <a href="#">
         <div class="relative flex items-end overflow-hidden rounded-xl">
-            <img class="h-48 w-full object-cover" src="@/images/kioot5x49hfesr5r1j8ngke2o4e72x4f.jpeg" alt="">
+            <img class="h-48 w-full object-cover" src="@/assets/images/kioot5x49hfesr5r1j8ngke2o4e72x4f.jpeg" alt="">
         </div>
 
         <div class="mt-1 p-2">
@@ -50,7 +50,7 @@
     <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300 ">
       <a href="#">
         <div class="relative flex items-end overflow-hidden rounded-xl">
-            <img class="h-48 w-full object-cover" src="@/images/kioot5x49hfesr5r1j8ngke2o4e72x4f.jpeg" alt="">
+            <img class="h-48 w-full object-cover" src="@/assets/images/kioot5x49hfesr5r1j8ngke2o4e72x4f.jpeg" alt="">
         </div>
 
         <div class="mt-1 p-2">
@@ -68,7 +68,7 @@
     <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300 ">
       <a href="#">
         <div class="relative flex items-end overflow-hidden rounded-xl">
-            <img class="h-48 w-full object-cover" src="@/images/kioot5x49hfesr5r1j8ngke2o4e72x4f.jpeg" alt="">
+            <img class="h-48 w-full object-cover" src="@/assets/images/kioot5x49hfesr5r1j8ngke2o4e72x4f.jpeg" alt="">
         </div>
 
         <div class="mt-1 p-2">
@@ -85,7 +85,7 @@
     <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300 ">
       <a href="#">
         <div class="relative flex items-end overflow-hidden rounded-xl">
-            <img class="h-48 w-full object-cover" src="@/images/kioot5x49hfesr5r1j8ngke2o4e72x4f.jpeg" alt="">
+            <img class="h-48 w-full object-cover" src="@/assets/images/kioot5x49hfesr5r1j8ngke2o4e72x4f.jpeg" alt="">
         </div>
 
         <div class="mt-1 p-2">
@@ -102,7 +102,7 @@
     <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300 ">
       <a href="#">
         <div class="relative flex items-end overflow-hidden rounded-xl">
-            <img class="h-48 w-full object-cover" src="@/images/kioot5x49hfesr5r1j8ngke2o4e72x4f.jpeg" alt="">
+            <img class="h-48 w-full object-cover" src="@/assets/images/kioot5x49hfesr5r1j8ngke2o4e72x4f.jpeg" alt="">
         </div>
 
         <div class="mt-1 p-2">
@@ -119,7 +119,7 @@
     <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300 ">
       <a href="#">
         <div class="relative flex items-end overflow-hidden rounded-xl">
-            <img class="h-48 w-full object-cover" src="@/images/kioot5x49hfesr5r1j8ngke2o4e72x4f.jpeg" alt="">
+            <img class="h-48 w-full object-cover" src="@/assets/images/kioot5x49hfesr5r1j8ngke2o4e72x4f.jpeg" alt="">
         </div>
 
         <div class="mt-1 p-2">
@@ -136,7 +136,7 @@
     <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300 ">
       <a href="#">
         <div class="relative flex items-end overflow-hidden rounded-xl">
-            <img class="h-48 w-full object-cover" src="@/images/kioot5x49hfesr5r1j8ngke2o4e72x4f.jpeg" alt="">
+            <img class="h-48 w-full object-cover" src="@/assets/images/kioot5x49hfesr5r1j8ngke2o4e72x4f.jpeg" alt="">
         </div>
 
         <div class="mt-1 p-2">
@@ -156,3 +156,6 @@
 </div>
 
 </template>
+<script setup>
+import ButtonBtn1 from "@/components/button-btn-1.vue";
+</script>

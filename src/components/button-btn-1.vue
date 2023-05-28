@@ -6,6 +6,7 @@
   
 </template>
 <script setup lang="ts">
+  import { inject } from 'vue'
   const showModal = inject('showContactModal')
 </script>
   

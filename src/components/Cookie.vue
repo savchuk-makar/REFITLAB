@@ -13,18 +13,18 @@
 </section>
 </template>
 <script setup>
+import {onMounted, ref} from "vue";
+
 const showCookie = ref(false);
-if(process.client){
-  const storage = localStorage.getItem('cookie');
-  if (storage === 'allow') {
-    showCookie.value = false;
-  }
-  else {
-    showCookie.value = true;
-  }
+const storage = localStorage.getItem('cookie');
+const cookieSet = () => {
+  showCookie.value = storage !== 'allow';
 }
 const setCookies = () => {
   localStorage.setItem('cookie', 'allow');
   showCookie.value = false;
 }
+onMounted(() => {
+  cookieSet();
+})
 </script>

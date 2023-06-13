@@ -14,7 +14,8 @@
     "pinia": "^2.0.36",
     "vue": "^3.3.2",
     "vue-router": "^4.2.0",
-    "vue-yandex-maps": "^0.12.7"
+    "vue-yandex-maps": "^0.12.7",
+    "vue3-picture-swipe": "^3.0.6"
   },
   "devDependencies": {
     "@tsconfig/node18": "^2.0.1",

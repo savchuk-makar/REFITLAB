@@ -23,4 +23,15 @@
           </div>
       </div>
   </main>
+  <my-reviews-widget></my-reviews-widget>
 </template>
+
+<script>
+import MyReviewsWidget from "@/components/MyReviewsWidget.vue";
+
+export default {
+  components: {
+    MyReviewsWidget,
+  },
+};
+</script>

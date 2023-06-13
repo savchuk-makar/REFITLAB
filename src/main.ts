@@ -2,6 +2,7 @@ import './assets/main.css'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
+import VuePictureSwipe from 'vue3-picture-swipe';
 
 // @ts-ignore
 import YmapPlugin from 'vue-yandex-maps'
@@ -13,6 +14,8 @@ const settings = {
     version: '2.1'
 }
 
+
+
 import App from '@/App.vue'
 import router from './router'
 
@@ -21,5 +24,7 @@ const app = createApp(App)
 app.use(createPinia())
 app.use(router)
 app.use(YmapPlugin, settings)
+
+app.component('vue-picture-swipe', VuePictureSwipe);
 
 app.mount('#app')

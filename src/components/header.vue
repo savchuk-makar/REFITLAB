@@ -3,8 +3,8 @@
     <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
       <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
         <router-link to="/" class="flex items-center">
-          <img src="@/assets/images/logo_white.png" class="h-8 mr-3" alt="REFITLAB Logo" v-if="isDark">
-          <img src="@/assets/images/logo_dark.png" class="h-8 mr-3" alt="REFITLAB Logo" v-else>
+          <img src="@/assets/images/logo/logo_white.svg" class="h-8 mr-3" alt="REFITLAB White" v-if="isDark">
+          <img src="@/assets/images/logo/logo_dark.svg" class="h-8 mr-3" alt="REFITLAB Dark" v-else>
         </router-link>
         <div class="flex items-center lg:order-2">
           <div class="flex md:order-2 relative">

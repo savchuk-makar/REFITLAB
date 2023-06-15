@@ -1,11 +1,12 @@
 <template>
   <header>
-    <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
+    <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800 dark:border-gray-600 border-b">
       <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
         <router-link to="/" class="flex items-center">
           <img src="@/assets/images/logo/logo_white.svg" class="h-8 mr-3" alt="REFITLAB White" v-if="isDark">
-          <img src="@/assets/images/logo/logo_dark.svg" class="h-8 mr-3" alt="REFITLAB Dark" v-else>
+          <img src="@/assets/images/logo/logo_dark.jpg" class="h-8 mr-3" alt="REFITLAB Dark" v-else>
         </router-link>
+        <theme></theme>
         <div class="flex items-center lg:order-2">
           <div class="flex md:order-2 relative">
             <ButtonContact/>
@@ -30,35 +31,35 @@
           <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0 items-center">
             <li>
               <router-link to="/"
-                        :active-class="'md:dark:text-green-500 md:text-blue-700'"
-                        class="block py-2 pr-4 pl-3 text-green-500 rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
+                        :active-class="'md:dark:text-green-500 md:text-green-500'"
+                        class="block py-2 pr-4 pl-3 rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
                         aria-current="page">Главная
               </router-link>
             </li>
             <li>
               <router-link to="/services"
-                        :active-class="'md:dark:text-green-500 md:text-blue-700'"
+                        :active-class="'md:dark:text-green-500 md:text-green-500'"
                         class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
                 Услуги
               </router-link>
             </li>
             <li>
               <router-link to="/portfolio"
-                        :active-class="'md:dark:text-green-500 md:text-blue-700'"
+                        :active-class="'md:dark:text-green-500 md:text-green-500'"
                         class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
                 Наши работы
               </router-link>
             </li>
             <li>
               <router-link to="/company"
-                        :active-class="'md:dark:text-green-500 md:text-blue-700'"
+                        :active-class="'md:dark:text-green-500 md:text-green-500'"
                         class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
                 О нас
               </router-link>
             </li>
             <li>
               <router-link to="/contacts"
-                        :active-class="'md:dark:text-green-500 md:text-blue-700'"
+                        :active-class="'md:dark:text-green-500 md:text-green-500'"
                         class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
                 Контакты
               </router-link>
@@ -72,7 +73,9 @@
 
 <script setup>
 import ButtonContact from "@/components/button-contact.vue";
+import theme from "@/components/theme.vue"
 import { useDark, useToggle } from "@vueuse/core";
+
 const isDark = useDark();
 const toggleDark = useToggle(isDark);
 </script>

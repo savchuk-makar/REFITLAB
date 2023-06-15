@@ -193,3 +193,7 @@
 <script setup>
 import ButtonBtn1 from "@/components/button-btn-1.vue";
 </script>
+
+<style>
+  /* Ваши стили */
+</style>

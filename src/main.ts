@@ -25,6 +25,5 @@ app.use(createPinia())
 app.use(router)
 app.use(YmapPlugin, settings)
 
-app.component('vue-picture-swipe', VuePictureSwipe);
 
 app.mount('#app')

@@ -6,9 +6,9 @@
           <img src="@/assets/images/logo/logo_white.svg" class="h-8 mr-3" alt="REFITLAB White" v-if="isDark">
           <img src="@/assets/images/logo/logo_dark.jpg" class="h-8 mr-3" alt="REFITLAB Dark" v-else>
         </router-link>
-        <theme></theme>
         <div class="flex items-center lg:order-2">
           <div class="flex md:order-2 relative">
+            <theme></theme>
             <ButtonContact/>
           </div>
           <button data-collapse-toggle="mobile-menu-2" type="button"

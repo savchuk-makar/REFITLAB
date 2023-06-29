@@ -50,12 +50,15 @@
     </div>
 </section>
 </template>
+
 <script setup>
 import { yandexMap, ymapMarker } from 'vue-yandex-maps'
-const coords = [43.585525, 39.723062]
+const coords = [43.565612, 39.769073]
 </script>
+
 <style>
 .ymap-container {
   height: 100%;
+  width: 100%;
 }
 </style>
